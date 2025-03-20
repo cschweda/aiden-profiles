@@ -2,7 +2,7 @@
 
 A modern web application for viewing and filtering coffee brewing profiles optimized for the Aiden brewer. Browse coffee profiles by origin/source, view detailed brewing parameters, and enjoy a responsive design with light/dark theme support.
 
-![Aiden Coffee Profiles App Screenshot](/public/aiden-profiles-preview.png)
+![Aiden Coffee Profiles App Screenshot](/public/aiden_screenshot.jpg)
 
 ## Features
 
@@ -45,12 +45,14 @@ A modern web application for viewing and filtering coffee brewing profiles optim
 
 1. Open Terminal
 2. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/aiden-profiles.git
    cd aiden-profiles
    ```
 
 3. Install dependencies:
+
    ```bash
    # Using npm
    npm install
@@ -60,6 +62,7 @@ A modern web application for viewing and filtering coffee brewing profiles optim
    ```
 
 4. Start the development server:
+
    ```bash
    # Using npm
    npm run dev
@@ -74,12 +77,14 @@ A modern web application for viewing and filtering coffee brewing profiles optim
 
 1. Open Command Prompt or PowerShell
 2. Clone the repository:
+
    ```powershell
    git clone https://github.com/yourusername/aiden-profiles.git
    cd aiden-profiles
    ```
 
 3. Install dependencies:
+
    ```powershell
    # Using npm
    npm install
@@ -89,6 +94,7 @@ A modern web application for viewing and filtering coffee brewing profiles optim
    ```
 
 4. Start the development server:
+
    ```powershell
    # Using npm
    npm run dev
@@ -102,6 +108,7 @@ A modern web application for viewing and filtering coffee brewing profiles optim
 ### Windows (WSL2)
 
 1. Install WSL2 by opening PowerShell as Administrator and running:
+
    ```powershell
    wsl --install
    ```
@@ -109,10 +116,11 @@ A modern web application for viewing and filtering coffee brewing profiles optim
 2. Restart your computer and follow the Ubuntu setup process
 3. Open Ubuntu terminal
 4. Install Node.js and npm:
+
    ```bash
    sudo apt update
    sudo apt install nodejs npm
-   
+
    # Upgrade to latest Node.js using nvm (recommended)
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
    source ~/.bashrc
@@ -120,17 +128,20 @@ A modern web application for viewing and filtering coffee brewing profiles optim
    ```
 
 5. Install Yarn (optional):
+
    ```bash
    npm install --global yarn
    ```
 
 6. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/aiden-profiles.git
    cd aiden-profiles
    ```
 
 7. Install dependencies:
+
    ```bash
    # Using npm
    npm install
@@ -140,6 +151,7 @@ A modern web application for viewing and filtering coffee brewing profiles optim
    ```
 
 8. Start the development server:
+
    ```bash
    # Using npm
    npm run dev
@@ -184,12 +196,14 @@ yarn lint:fix
 ### Platform-Specific Development Tips
 
 #### Linux
+
 - For Ubuntu/Debian: Install build essentials if you encounter compilation issues:
   ```bash
   sudo apt install build-essential
   ```
 
 #### macOS
+
 - Install Xcode Command Line Tools if you encounter compilation issues:
   ```bash
   xcode-select --install
@@ -200,6 +214,7 @@ yarn lint:fix
   ```
 
 #### Windows
+
 - Make sure you have the Windows Build Tools installed for npm:
   ```powershell
   npm install --global --production windows-build-tools
@@ -207,6 +222,7 @@ yarn lint:fix
 - Consider using WSL2 for a more Linux-like development experience
 
 #### WSL2
+
 - For GUI apps like browsers, use Windows browsers
 - Enable the Windows Firewall to allow connections from WSL2
 - Use VS Code's Remote WSL extension for a seamless experience
@@ -228,7 +244,7 @@ yarn preview
 
 # Serve the production build with 'serve' package
 npm run serve
-# OR 
+# OR
 yarn serve
 
 # Build and immediately serve (all-in-one command)
@@ -271,6 +287,7 @@ yarn test:coverage
 ```
 
 The test dashboard provides:
+
 - Visual progress spinner while tests are running 🔄
 - Detailed statistics about test runs 📊
 - Pass/fail status with a visual progress bar 📈
@@ -344,21 +361,24 @@ To use Google Sheets in a production environment:
 4. Update the constants file:
    ```javascript
    // In src/config/constants.js
-   const API_ENDPOINT = 'https://your-backend-api.com/coffee-profiles';
+   const API_ENDPOINT = "https://your-backend-api.com/coffee-profiles";
    export const COFFEE_PROFILES_SPREADSHEET_URL = API_ENDPOINT;
    ```
 
 **Why This Approach Is Necessary:**
+
 - Browser security prevents direct CORS requests to Google Sheets
 - A backend proxy can add the proper headers and handle authentication
 - This pattern is standard for web applications that need to access third-party APIs
 
 #### CSV Format Requirements
+
 Make sure your CSV follows the expected data structure as outlined below.
 
 ### Offline Functionality
 
 The app includes a built-in download feature that:
+
 - Downloads and stores the spreadsheet data locally
 - Shows download progress in real-time
 - Allows switching between online and offline data sources
