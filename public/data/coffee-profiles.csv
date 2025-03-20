@@ -1,0 +1,11 @@
+name,source,roast,process,variety,altitude,notes,description,temperature,grind_size,brew_ratio,brew_time
+"Ethiopia Yirgacheffe","Ethiopia","Light","Washed","Heirloom","1800-2200m","Floral, Citrus, Bergamot","Bright and complex coffee with floral notes and citrus acidity","92°C","Medium-Fine","1:16","3:30"
+"Colombia Huila","Colombia","Medium","Washed","Caturra, Castillo","1600-1900m","Chocolate, Caramel, Red Apple","Sweet and balanced with chocolate notes and medium body","94°C","Medium","1:15","3:45"
+"Guatemala Antigua","Guatemala","Medium","Washed","Bourbon","1500-1700m","Chocolate, Spice, Orange","Rich body with chocolate and subtle orange notes","93°C","Medium","1:15.5","3:30"
+"Kenya AA","Kenya","Medium-Light","Washed","SL28, SL34","1700-1900m","Blackcurrant, Grapefruit, Brown Sugar","Vibrant acidity with fruity notes and a sweet finish","94°C","Medium-Fine","1:16","3:15"
+"Costa Rica Tarrazu","Costa Rica","Medium","Honey","Caturra","1500-1800m","Honey, Stone Fruit, Hazelnut","Sweet and smooth with a honey-like sweetness and nutty finish","93°C","Medium","1:16","3:30"
+"Brazil Cerrado","Brazil","Medium-Dark","Natural","Mundo Novo, Catuai","1000-1200m","Chocolate, Nut, Caramel","Low acidity with chocolate notes and nutty undertones","92°C","Medium-Coarse","1:15","4:00"
+"Indonesia Sumatra Mandheling","Indonesia","Dark","Wet-Hulled","Typica, Catimor","900-1500m","Earthy, Cedar, Dark Chocolate","Full-bodied with earthy notes and low acidity","91°C","Medium-Coarse","1:14","4:15"
+"Panama Gesha","Panama","Light","Washed","Gesha","1600-1800m","Jasmine, Bergamot, Peach","Delicate and tea-like with floral aromas and juicy acidity","94°C","Medium-Fine","1:17","3:15"
+"Rwanda Nyungwe","Rwanda","Light-Medium","Washed","Bourbon","1700-2000m","Red Berry, Orange Blossom, Caramel","Vibrant acidity with a sweet, lingering finish","93°C","Medium-Fine","1:16","3:20"
+"Mexico Chiapas","Mexico","Medium","Washed","Bourbon, Typica","1200-1750m","Toffee, Almond, Citrus","Balanced sweetness with a hint of citrus brightness","92°C","Medium","1:15.5","3:30"
